@@ -12,6 +12,8 @@
 		C5A3E7D0227807C4004C2099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A3E7CE227807C4004C2099 /* Main.storyboard */; };
 		C5A3E7D2227807C6004C2099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A3E7D1227807C6004C2099 /* Assets.xcassets */; };
 		C5A3E7D5227807C6004C2099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A3E7D3227807C6004C2099 /* LaunchScreen.storyboard */; };
+		C5A3E7DD227808EB004C2099 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A3E7DC227808EB004C2099 /* MenuCell.swift */; };
+		C5A3E7DF2278095D004C2099 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A3E7DE2278095D004C2099 /* MenuBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C5A3E7D1227807C6004C2099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5A3E7D4227807C6004C2099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5A3E7D6227807C6004C2099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A3E7DC227808EB004C2099 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		C5A3E7DE2278095D004C2099 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,32 @@
 		C5A3E7C9227807C4004C2099 /* ios-custom-menu-bar */ = {
 			isa = PBXGroup;
 			children = (
+				C5A3E7E122781DB5004C2099 /* Controllers */,
+				C5A3E7E022781DAA004C2099 /* Views */,
 				C5A3E7CA227807C4004C2099 /* AppDelegate.swift */,
-				C5A3E7CC227807C4004C2099 /* ViewController.swift */,
-				C5A3E7CE227807C4004C2099 /* Main.storyboard */,
 				C5A3E7D1227807C6004C2099 /* Assets.xcassets */,
 				C5A3E7D3227807C6004C2099 /* LaunchScreen.storyboard */,
 				C5A3E7D6227807C6004C2099 /* Info.plist */,
 			);
 			path = "ios-custom-menu-bar";
+			sourceTree = "<group>";
+		};
+		C5A3E7E022781DAA004C2099 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5A3E7DC227808EB004C2099 /* MenuCell.swift */,
+				C5A3E7DE2278095D004C2099 /* MenuBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C5A3E7E122781DB5004C2099 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5A3E7CC227807C4004C2099 /* ViewController.swift */,
+				C5A3E7CE227807C4004C2099 /* Main.storyboard */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +159,8 @@
 			files = (
 				C5A3E7CD227807C4004C2099 /* ViewController.swift in Sources */,
 				C5A3E7CB227807C4004C2099 /* AppDelegate.swift in Sources */,
+				C5A3E7DF2278095D004C2099 /* MenuBar.swift in Sources */,
+				C5A3E7DD227808EB004C2099 /* MenuCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
